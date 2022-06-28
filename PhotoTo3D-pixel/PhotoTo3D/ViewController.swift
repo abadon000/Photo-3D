@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,  UINavi
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.init(white: 0.85, alpha: 1.0)
-        if let image = UIImage.init(named: "anan.jpeg") {
+        if let image = UIImage.init(named: "child.jpeg") {
             self.metalView.getTexture()
         }
         self.typeSelect.addTarget(self, action: #selector(changeStyle), for: .valueChanged)

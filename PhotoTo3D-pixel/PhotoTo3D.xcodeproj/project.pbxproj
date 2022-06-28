@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7991DF9828322EC8004AAD26 /* anan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7991DF9728322EC8004AAD26 /* anan.jpeg */; };
+		53583438BF7397493195CD15 /* Pods_PhotoTo3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF5088EEF814FFB155E21D5 /* Pods_PhotoTo3D.framework */; };
 		84F23AF3234EDBD900E5F136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F23AF2234EDBD900E5F136 /* AppDelegate.swift */; };
 		84F23AF5234EDBD900E5F136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F23AF4234EDBD900E5F136 /* SceneDelegate.swift */; };
 		84F23AF7234EDBD900E5F136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F23AF6234EDBD900E5F136 /* ViewController.swift */; };
@@ -20,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7991DF9728322EC8004AAD26 /* anan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anan.jpeg; sourceTree = "<group>"; };
-		84F23AEF234EDBD900E5F136 /* PhotoTo3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PhotoTo3D.app; path = "/Users/liudengyang/Downloads/info/liuchengyang/PhotoTo3D-pixel/build/Debug-iphoneos/PhotoTo3D.app"; sourceTree = "<absolute>"; };
+		3BF5088EEF814FFB155E21D5 /* Pods_PhotoTo3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoTo3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		797ABC3A286B038C0053A52F /* PhotoTo3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTo3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F23AF2234EDBD900E5F136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F23AF4234EDBD900E5F136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84F23AF6234EDBD900E5F136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +32,8 @@
 		84F23B08234EDC1F00E5F136 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		84F23B0C234EE42B00E5F136 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 		84F23B6A235DAE7D00E5F136 /* child.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = child.jpeg; sourceTree = "<group>"; };
+		942ECEAFF47A07D2A0AE8B4B /* Pods-PhotoTo3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTo3D.release.xcconfig"; path = "Target Support Files/Pods-PhotoTo3D/Pods-PhotoTo3D.release.xcconfig"; sourceTree = "<group>"; };
+		AB84402D36AC9A848155D6E3 /* Pods-PhotoTo3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTo3D.debug.xcconfig"; path = "Target Support Files/Pods-PhotoTo3D/Pods-PhotoTo3D.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,16 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53583438BF7397493195CD15 /* Pods_PhotoTo3D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BD039BBEDE2B2CF874FF488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB84402D36AC9A848155D6E3 /* Pods-PhotoTo3D.debug.xcconfig */,
+				942ECEAFF47A07D2A0AE8B4B /* Pods-PhotoTo3D.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72C96D818BFEBFEA5B713DC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF5088EEF814FFB155E21D5 /* Pods_PhotoTo3D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84F23AE6234EDBD900E5F136 = {
 			isa = PBXGroup;
 			children = (
 				84F23AF1234EDBD900E5F136 /* PhotoTo3D */,
+				2BD039BBEDE2B2CF874FF488 /* Pods */,
+				72C96D818BFEBFEA5B713DC9 /* Frameworks */,
+				797ABC3A286B038C0053A52F /* PhotoTo3D.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +84,6 @@
 				84F23AF8234EDBD900E5F136 /* Main.storyboard */,
 				84F23B08234EDC1F00E5F136 /* MetalView.swift */,
 				84F23B6A235DAE7D00E5F136 /* child.jpeg */,
-				7991DF9728322EC8004AAD26 /* anan.jpeg */,
 				84F23B0C234EE42B00E5F136 /* Shader.metal */,
 				84F23AFB234EDBDA00E5F136 /* Assets.xcassets */,
 				84F23AFD234EDBDA00E5F136 /* LaunchScreen.storyboard */,
@@ -88,7 +110,7 @@
 			);
 			name = PhotoTo3D;
 			productName = PhotoTo3D;
-			productReference = 84F23AEF234EDBD900E5F136 /* PhotoTo3D.app */;
+			productReference = 797ABC3A286B038C0053A52F /* PhotoTo3D.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +156,6 @@
 				84F23AFC234EDBDA00E5F136 /* Assets.xcassets in Resources */,
 				84F23B6B235DAE7D00E5F136 /* child.jpeg in Resources */,
 				84F23AFA234EDBD900E5F136 /* Main.storyboard in Resources */,
-				7991DF9828322EC8004AAD26 /* anan.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +337,7 @@
 		};
 		84F23B04234EDBDA00E5F136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB84402D36AC9A848155D6E3 /* Pods-PhotoTo3D.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -337,6 +359,7 @@
 		};
 		84F23B05234EDBDA00E5F136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942ECEAFF47A07D2A0AE8B4B /* Pods-PhotoTo3D.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

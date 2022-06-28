@@ -52,7 +52,7 @@ class MetalView: UIView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        image = UIImage.init(named: "anan.jpeg")
+        image = UIImage.init(named: "child.jpeg")
         initMetal()
         initPipeline()
     }

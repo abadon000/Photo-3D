@@ -1,0 +1,6 @@
+framework module Pods_PhotoTo3D {
+  umbrella header "Pods-PhotoTo3D-umbrella.h"
+
+  export *
+  module * { export * }
+}
